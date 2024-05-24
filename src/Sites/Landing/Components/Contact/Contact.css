@@ -1,0 +1,60 @@
+.contact{
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.contact__title{
+    margin: 0px 0px 10px 300px;
+} 
+
+.contact__title h2{
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: rgb(7, 160, 255);
+    text-align: left;
+}
+
+.contact__subtitle{
+    margin-left: 300px;
+    margin-bottom: 50px;
+} 
+
+.contact__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact__location, .contact__mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__location{
+    margin-left: 250px;
+}
+
+.contact__mail{
+    margin-right: 400px;
+}
+
+.location_left, .mail_left{
+    margin-right: 25px;
+}
+
+.location_right h3, .mail_right h3{
+    margin: 10px 0px 5px 0px;
+}
+
+.location_right p, .mail_right p{
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+/* .mail_left, .location_left{
+    margin-left: ;
+} */

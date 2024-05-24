@@ -1,0 +1,40 @@
+.hero{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    margin-bottom: 0px;
+}
+
+.hero .left{
+    margin: 300px 50px 50px 200px;
+}
+
+.hero .right{
+    margin: 300px 200px 50px 50px;
+}
+
+.hero .right img{
+    width: 200px;
+}
+
+.hero h1{
+    width: 250px;
+}
+
+.hero p{
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: .7rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+
+.hero .left img{
+    width: 25px;
+    margin: 10px 10px 0px 0px;
+}
