@@ -1,8 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
-import github_icon from '../../../../assets/github-mark.png'
-import linkdin_icon from '../../../../assets/In-Blue-128.png'
+import github_icon from '../../../../assets/github-mark-white.png'
+import linkdin_icon from '../../../../assets/In-White-128.png'
 
 const Footer = () => {
   return (

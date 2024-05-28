@@ -1,13 +1,17 @@
 .about{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0px auto 200px;
-    /* margin-bottom: 200px; */
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+.about__img{
+    margin-left: 200px;
+    margin-right: 50px;
 }
 
 .about__text{
-margin-right: 250px;
+margin-right: 200px;
 padding-top: 75px;
 width: 400px;
 }
@@ -20,10 +24,6 @@ width: 400px;
 
 h3{
     margin: 7px 0px 20px;
-}
-
-.about__img{
-    margin-left: 300px;
 }
 
 .about img{
@@ -39,3 +39,21 @@ h3{
     height: 200px;
 }
 
+@media(max-width: 1200px){
+    .about{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .about__img{
+        margin: 0px 0px 20px 0px;
+    }
+    
+    .about__text{
+    margin-right: 0px;
+    padding-top: 0px;
+    width: 400px;
+    }
+}

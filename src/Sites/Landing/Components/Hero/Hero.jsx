@@ -7,20 +7,23 @@ import pic_of_me from '../../../../assets/PH-ME.png'
 
 const Hero = () => {
   return (
-    <div className='container hero'>
+    <div className='hero'>
 
       <div className='left'>
         <h1>Front-End React Developer</h1>
 
         <p>Hi, I'm Zach Johnson. A passionate Front-end React Developer based in Rogers, Ar.</p>
 
-        <Link to='https://github.com/Zach-Yates'>
-              <img src={github_icon} />
-        </Link>
+        <div className='icons'>
+          <Link to='https://github.com/Zach-Yates'>
+                <img src={github_icon} />
+          </Link>
 
-        <Link to='https://www.linkedin.com/in/zach-johnson-427b58b6'>
-              <img src={linkdin_icon} />
-        </Link>
+          <Link to='https://www.linkedin.com/in/zach-johnson-427b58b6'>
+                <img src={linkdin_icon} />
+          </Link>
+        </div>
+
 
       </div>
 
