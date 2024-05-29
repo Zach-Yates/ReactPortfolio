@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import {Link} from 'react-scroll'
+import {Link as RLink} from 'react-router-dom'
 import park_image from '../../../../assets/park-ph.jpg'
 import smoothie_image from '../../../../assets/smoothie-ph.jpg'
 import game_image from '../../../../assets/game-ph.jpg'
@@ -41,19 +42,19 @@ const Projects = () => {
           <div className='project__links'>
 
             <div className='github_link'>
-              <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
+              <RLink to='https://github.com/Zach-Yates' className='code_text'>Code</RLink>
 
-              <Link to='https://github.com/Zach-Yates'>
+              <RLink to='https://github.com/Zach-Yates'>
                 <img className='icon' src={github_icon} />
-              </Link>
+              </RLink>
             </div>
 
             <div className='demo_link'>
-              <Link to='https://github.com/Zach-Yates' className='demo-text'>Live Demo</Link>
+              <RLink to='/gameHome' className='demo_text'>Live Demo</RLink>
 
-              <Link to='https://github.com/Zach-Yates'>
-                <FaExternalLinkAlt size="20px"/>
-              </Link>
+              <RLink to='/gameHome'>
+                <FaExternalLinkAlt size="20px" color="black"/>
+              </RLink>
             </div>
 
           </div>
@@ -79,19 +80,19 @@ const Projects = () => {
         <div className='project__links'>
 
           <div className='github_link'>
-            <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
+            <RLink to='https://github.com/Zach-Yates' className='code_text'>Code</RLink>
 
-            <Link to='https://github.com/Zach-Yates'>
+            <RLink to='https://github.com/Zach-Yates'>
               <img className='icon' src={github_icon} />
-            </Link>
+            </RLink>
           </div>
 
           <div className='demo_link'>
-            <Link to='https://github.com/Zach-Yates' className='demo-text'>Live Demo</Link>
+            <RLink to='https://github.com/Zach-Yates' className='demo_text'>Live Demo</RLink>
 
-            <Link to='https://github.com/Zach-Yates'>
-              <FaExternalLinkAlt size="20px"/>
-            </Link>
+            <RLink to='https://github.com/Zach-Yates'>
+              <FaExternalLinkAlt size="20px" color="black"/>
+            </RLink>
           </div>
 
         </div>
@@ -123,19 +124,19 @@ const Projects = () => {
         <div className='project__links'>
 
           <div className='github_link'>
-            <Link to='https://github.com/Zach-Yates' className='code_text'>Code</Link>
+            <RLink to='https://github.com/Zach-Yates' className='code_text'>Code</RLink>
 
-            <Link to='https://github.com/Zach-Yates'>
+            <RLink to='https://github.com/Zach-Yates'>
               <img className='icon' src={github_icon} />
-            </Link>
+            </RLink>
           </div>
 
           <div className='demo_link'>
-            <Link to='https://github.com/Zach-Yates' className='demo-text'>Live Demo</Link>
+            <RLink to='https://github.com/Zach-Yates' className='demo_text'>Live Demo</RLink>
 
-            <Link to='https://github.com/Zach-Yates'>
-              <FaExternalLinkAlt size="20px"/>
-            </Link>
+            <RLink to='https://github.com/Zach-Yates'>
+              <FaExternalLinkAlt size="20px" color="black"/>
+            </RLink>
           </div>
 
         </div>

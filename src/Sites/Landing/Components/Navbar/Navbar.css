@@ -16,3 +16,16 @@ nav ul li{
     margin: 5px 10px;
     font-size: 16px;
 }
+
+.dark-nav{
+    background-color: black;
+    transition: 0.5s;
+}
+
+.dark-nav h1, .dark-nav li{
+    color: white;
+}
+
+li{
+    cursor: pointer;
+}

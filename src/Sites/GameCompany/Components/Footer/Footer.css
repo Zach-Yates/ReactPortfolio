@@ -1,0 +1,22 @@
+.game__footer{
+    height: 100px;
+    color: white;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.game__footer h2{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.game__footer ul{
+    display: flex;
+    gap: 20px;
+}
+
+.game__footer li{
+    list-style: none;
+}

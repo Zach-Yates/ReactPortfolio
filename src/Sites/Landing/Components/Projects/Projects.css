@@ -114,11 +114,14 @@
 
 .code_text{
     margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .icon{
     width:25px;
     margin: 0px 0px 0px 3px;
+    color: black;
 }
 
 .demo_link{
@@ -127,10 +130,15 @@
 }
 
 
-.demo-text{
+.demo_text{
     margin: 0px 3px 3px 0px;
+    text-decoration: none;
+    color: black;
 }
 
+.github_link, .demo_link{
+    cursor: pointer;
+}
 
 @media(max-width: 1200px){
     .projects__title{
