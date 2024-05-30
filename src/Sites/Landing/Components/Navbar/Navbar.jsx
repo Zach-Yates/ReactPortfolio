@@ -12,7 +12,7 @@ const Navbar = () => {
   },[]);
 
   return (
-    <nav className={`container ${sticky? 'dark-nav' : ''}`}>
+    <nav className={`land__nav container ${sticky? 'dark-nav' : ''}`}>
       <h1>Zach.dev</h1>
       <ul>
         <li><Link to='hero' smooth={true} offset={-200} duration={500}>Home</Link></li>

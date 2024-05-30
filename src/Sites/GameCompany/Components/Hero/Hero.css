@@ -25,7 +25,7 @@
     right: 5.5%;
 }
 
-.cards{
+.game__hero .cards{
     overflow: hidden;
 
 }
@@ -37,7 +37,7 @@
     margin-left: 140px;
 }
 
-.card{
+.game__hero .card{
     flex: 0 0 91%;
     width: 1500px;
     height: 725px;
@@ -45,7 +45,7 @@
     box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.info{
+.game__hero .info{
     display: flex;
     align-items:start;
     justify-content: center;
