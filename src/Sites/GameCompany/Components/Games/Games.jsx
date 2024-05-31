@@ -10,7 +10,7 @@ import combattle_game_img from "../../../../assets/combattle-game-img.png";
 
 const Games = () => {
   return (
-    <div className='game__games container'>
+    <div className='games game__games container'>
       <h1>games</h1>
 
       <div className='game__grid'>

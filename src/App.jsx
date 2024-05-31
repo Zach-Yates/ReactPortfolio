@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' exact Component={Home}></Route>
-        <Route path='/GameHome' exact Component={GameHome}></Route>
+        <Route path='/gameHome' exact Component={GameHome}></Route>
 
         {/* Game Pages */}
         <Route path='/Game_About' exact Component={Game_About}></Route>
