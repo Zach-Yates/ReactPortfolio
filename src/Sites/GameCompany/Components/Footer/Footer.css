@@ -1,10 +1,11 @@
 .game__footer{
     height: 100px;
     color: white;
-    background: black;
+    background: rgb(10, 24, 80);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
 }
 
 .game__footer h2{
@@ -19,4 +20,10 @@
 
 .game__footer li{
     list-style: none;
+}
+
+@media(max-width:600px){
+    .game__footer h2{
+        font-size: .8rem;
+    }
 }

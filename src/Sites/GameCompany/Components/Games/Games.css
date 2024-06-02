@@ -1,43 +1,44 @@
 .game__games{
     display: block;
     margin-bottom: 100px;
+    position: sticky;
 }
 
 .game__grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .game__games h1{
-    /* position: absolute; */
     text-transform: uppercase;
     color: white;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .game{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    /* border: black solid; */
     text-transform: capitalize;
     color: white;
-    width: 300px;
     height: 500px;
     text-align: left;
-    /* background-image: url("../../../../assets/blue-cloud-bg.png"); */
 }
 
 .game__image{
-    width: 295px;
-    height: 380px;
+    width: 250px;
+    height: 325px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .game h2{
     margin-left: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-decoration:none;
     color: white;
 }
@@ -56,3 +57,8 @@
     margin-right: 20px;
 }
 
+@media(max-width: 900px){
+    .game__grid{
+        justify-content: center;
+    }
+}

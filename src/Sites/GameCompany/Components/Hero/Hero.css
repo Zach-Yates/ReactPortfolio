@@ -1,6 +1,5 @@
 .game__hero{
     min-height: 90vh;
-    position: relative;
 }
 
 .next-btn, .back-btn{
@@ -25,9 +24,13 @@
     right: 5.5%;
 }
 
+.back-btn:hover,.next-btn:hover{
+    scale: 1.2;
+    background: rgb(129, 129, 129);
+}
+
 .game__hero .cards{
     overflow: hidden;
-
 }
 
 .cards-slide{
@@ -98,4 +101,9 @@
     border-color: rgb(77, 210, 255);
     border-style: solid;
     text-shadow: black 0px 1px 2px;
+}
+
+.card1__button:hover{
+    scale: 1.1;
+    background-color:  rgb(73, 153, 251);
 }
