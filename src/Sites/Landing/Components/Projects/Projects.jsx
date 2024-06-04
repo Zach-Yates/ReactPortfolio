@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 import {Link as RLink} from 'react-router-dom'
 import park_image from '../../../../assets/park-ph.jpg'
 import smoothie_image from '../../../../assets/smoothie-ph.jpg'
-import game_image from '../../../../assets/game-ph.jpg'
+import game_image from '../../../../assets/gameco-ss.png'
 import { FaExternalLinkAlt } from "react-icons/fa";
 import github_icon from '../../../../assets/github-mark.png'
 
@@ -29,10 +29,13 @@ const Projects = () => {
         </div>
 
         <div className='project__info'>
-          <h3>Amusement park</h3>
+          <h3>CompCo</h3>
 
-          <p>A website for an amusement park. Customers can browse attractions,
-          compare pricing options, and explore park ammenities.</p>
+          <p>CompCo is a third party apple certified Premier Partner. 
+          CompCo's website allows customers to browse their fine selection of refurbished Apple products.
+          Compare prices with Apple to see how much you can save when shopping with CompCo. Setup servicing for
+          a device experiencing a range of issues.
+          </p>
 
           <div className='project__tech'>
             <h2 className='tech__left'>React</h2>
@@ -50,9 +53,9 @@ const Projects = () => {
             </div>
 
             <div className='demo_link'>
-              <RLink to='/gameHome' className='demo_text'>Live Demo</RLink>
+              <RLink to='/comp_home' className='demo_text'>Live Demo</RLink>
 
-              <RLink to='/gameHome'>
+              <RLink to='/comp_home'>
                 <FaExternalLinkAlt size="20px" color="black"/>
               </RLink>
             </div>
@@ -69,8 +72,7 @@ const Projects = () => {
       <div className='project__info__mid'>
         <h3>smoothie shop</h3>
 
-        <p>A website for an amusement park. Customers can browse attractions,
-        compare pricing options, and explore park ammenities.</p>
+        <p>A website for a game company. Browse their library and download their games.</p>
 
         <div className='project__tech'>
           <h2 className='tech__left'>React</h2>
@@ -88,9 +90,9 @@ const Projects = () => {
           </div>
 
           <div className='demo_link'>
-            <RLink to='https://github.com/Zach-Yates' className='demo_text'>Live Demo</RLink>
+            <RLink to='/gameHome' className='demo_text'>Live Demo</RLink>
 
-            <RLink to='https://github.com/Zach-Yates'>
+            <RLink to='/gameHome'>
               <FaExternalLinkAlt size="20px" color="black"/>
             </RLink>
           </div>
@@ -113,8 +115,7 @@ const Projects = () => {
       <div className='project__info'>
         <h3>game company</h3>
 
-        <p>A website for an amusement park. Customers can browse attractions,
-        compare pricing options, and explore park ammenities.</p>
+        <p>A website for a game company. Browse their library and download their games.</p>
 
         <div className='project__tech'>
           <h2 className='tech__left'>React</h2>
@@ -132,9 +133,9 @@ const Projects = () => {
           </div>
 
           <div className='demo_link'>
-            <RLink to='https://github.com/Zach-Yates' className='demo_text'>Live Demo</RLink>
+            <RLink to='/gameHome' className='demo_text'>Live Demo</RLink>
 
-            <RLink to='https://github.com/Zach-Yates'>
+            <RLink to='/gameHome'>
               <FaExternalLinkAlt size="20px" color="black"/>
             </RLink>
           </div>
