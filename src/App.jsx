@@ -26,7 +26,7 @@ function App() {
     <Router>
       <Routes>
         {/* Portfolio Landing */}
-        {/* <Route path='/' exact Component={Home}></Route> */}
+        <Route path='/' exact Component={Home}></Route>
 
         {/* Game Pages */}
         <Route path='/gameHome' exact Component={GameHome}></Route>
@@ -38,8 +38,8 @@ function App() {
         <Route path='/Game_Combattle' exact Component={Game_Combattle}></Route>
 
         {/* CompCo Pages */}
-        <Route path='/' exact Component={Comp_Home}></Route>
-        {/* <Route path='/comp_home' exact Component={Comp_Home}></Route> */}
+        {/* <Route path='/' exact Component={Comp_Home}></Route> */}
+        <Route path='/comp_home' exact Component={Comp_Home}></Route>
         <Route path='/comp_products' exact Component={Comp_Products}></Route>
         <Route path='/comp_services' exact Component={Comp_Services}></Route>
         <Route path='/comp_about' exact Component={Comp_About}></Route>
